@@ -1,8 +1,6 @@
 val ReactImageCropVersion = "^2.0.3"
 val ScalaJSReactJSVersion = "[0.13.1,0.14.0["
 
-resolvers += Resolver.mavenLocal
-
 publishTo := {
   val nexus = "https://oss.sonatype.org/"
   isSnapshot.value match {
