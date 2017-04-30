@@ -14,7 +14,7 @@ lazy val commonSettings = Seq(
   scalaVersion := "2.12.2",
   organization := "io.github.shogowada",
   name := "scalajs-reactjs-image-crop",
-  version := "1.0.0",
+  version := "1.1.0",
   ivyScala := ivyScala.value.map {
     _.copy(overrideScalaVersion = true)
   },
