@@ -1,5 +1,5 @@
 val ReactImageCropVersion = "^2.0.3"
-val ScalaJSReactJSVersion = "[0.13.1,0.14.0["
+val ScalaJSReactJSVersion = "[0.14.0,0.15.0["
 
 publishTo := {
   val nexus = "https://oss.sonatype.org/"
@@ -14,7 +14,7 @@ lazy val commonSettings = Seq(
   scalaVersion := "2.12.2",
   organization := "io.github.shogowada",
   name := "scalajs-reactjs-image-crop",
-  version := "1.1.0",
+  version := "2.0.0",
   ivyScala := ivyScala.value.map {
     _.copy(overrideScalaVersion = true)
   },
